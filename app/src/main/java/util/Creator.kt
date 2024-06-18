@@ -19,6 +19,9 @@ object Creator {
 //        return MoviesInteractorImpl(getMoviesRepository(context))
 //    }
 
+    fun checkup() {
+
+    }
     fun providePosterPresenter(posterView: PosterView, url: String): PosterPresenter {
         return PosterPresenter(posterView, url)
     }
